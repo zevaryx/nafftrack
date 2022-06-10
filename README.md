@@ -6,8 +6,8 @@
 6) Modify your bot in `bot/main.py` etc, re-launch via `docker-compose up -d --build`
 7) Put your bot requirements to `bot/requirements.txt`
 
-Your bot runs inside docker container, as it should've been
+Your bot runs inside it's docker container, as it should've been
 
-Grafana and Prometheus are run via docker-compose in thier own containers. They are already pre-configured
+Grafana and Prometheus are run via docker-compose in their own containers. They are already pre-configured
 
-Stats scale/client/extension configured to expose http `/metrics` endpoint (internally by default) that is scraped by Prometheus
+Stats scale/client/extension configured to expose http `/metrics` endpoint (internally by default) which is scraped by Prometheus
